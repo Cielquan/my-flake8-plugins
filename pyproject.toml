@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "my-flake8-plugins"
-version = "1.0.0"
+version = "1.0.1"
 description = ""
 authors = ["Christian Riedel <cielquan@protonmail.com>"]
 license = "MIT"
