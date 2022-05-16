@@ -43,7 +43,7 @@ exclude = [
   flake8-logging-format = [
     "+*",
     # deactivate because unwanted
-    "-G00+",  # Prohibit format strings in logging calls
+    "-G00?",  # Prohibit format strings in logging calls
   ]
   flake8-rst-docstrings = [
     "+*",
