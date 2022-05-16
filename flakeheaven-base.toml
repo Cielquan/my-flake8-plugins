@@ -40,6 +40,11 @@ exclude = [
     # deactivate because double check
     "-S110",  # try-except-pass - SIM105[flake8-simplify]
   ]
+  flake8-logging-format = [
+    "+*",
+    # deactivate because unwanted
+    "-G00+",  # Prohibit format strings in logging calls
+  ]
   flake8-rst-docstrings = [
     "+*",
     # deactivate because unwanted
