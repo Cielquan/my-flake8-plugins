@@ -12,6 +12,7 @@ exclude = [
   "_backupfiles/",
   "*.bak.*"
 ]
+extend_select = ["B950"]
 
   [tool.flakeheaven.plugins]
   pyflakes = ["+*"]
@@ -22,6 +23,7 @@ exclude = [
     "-W503",  # line break before binary operator
     "-E203",  # whitespace before ':'
     # deactivate because double check
+    "-E501",  # line length B950[flake8-bugbear]
     "-E722",  # bare-except B001[flake8-bugbear]
     # deactivate because unwanted
     "-E731",  # forbids lambda
