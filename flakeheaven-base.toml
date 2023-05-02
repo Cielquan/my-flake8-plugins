@@ -66,3 +66,9 @@ extend_select = ["B950"]
       # deactivate because unwanted
       "-S101",  # assert used
     ]
+    [tool.flakeheaven.exceptions."**/*_test.py"]
+    flake8-aaa = ["+*"]
+    flake8-bandit = [
+      # deactivate because unwanted
+      "-S101",  # assert used
+    ]
