@@ -12,7 +12,7 @@ readme = "README.md"
 packages = [{include = "dummy.py"}]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.7"
 flake8 = ">=4"
 pydocstyle = ">=5"
 pep8-naming = ">=0.12"
